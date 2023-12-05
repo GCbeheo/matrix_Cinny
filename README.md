@@ -15,8 +15,7 @@ docker compose up -d && docker compose logs -f
 # Check http://localhost:8008/
 
 # Run Cinny
-docker load -i cinny.tar
-docker run -p 8080:80 cinny:latest
+docker run -p 8080:80 mrbghndevops/cinny:v1
 
 # Create new user
 docker exec -it <container matrix> /bin/sh
