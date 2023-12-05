@@ -12,7 +12,7 @@ docker run --rm --entrypoint="" \
 # Run docker compose
 docker compose up -d && docker compose logs -f
 
-# Check http://localhost:8008/
+### Check http://localhost:8008/
 
 # Run Cinny
 docker run -p 8080:80 mrbghndevops/cinny:v1
