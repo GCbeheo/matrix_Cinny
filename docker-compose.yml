@@ -2,6 +2,7 @@ version: "3.4"
 
 services:
   postgres:
+    container_name: matrix-postgres-1
     hostname: postgres
     image: postgres:15-alpine
     restart: always
