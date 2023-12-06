@@ -15,7 +15,7 @@ docker compose up -d && docker compose logs -f
 ### Check http://localhost:8008/
 
 # Run Cinny
-docker run -p 8080:80 mrbghndevops/cinny:v1
+docker run -d -p 8080:80 mrbghndevops/cinny:v1
 ### You can clone Cinny and build your own image
 https://github.com/cinnyapp/cinny
 
