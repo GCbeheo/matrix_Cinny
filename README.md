@@ -14,10 +14,14 @@ docker compose up -d && docker compose logs -f
 
 ### Check http://localhost:8008/
 
-# Run Cinny
+# Run Cinny or run Element
 docker run -d -p 8080:80 mrbghndevops/cinny:v1
+docker run -d -p 80:80 mrbghndevops/element-web:v1
+
 ### You can clone Cinny and build your own image
 https://github.com/cinnyapp/cinny
+### You can clone Element and build your own image
+https://github.com/element-hq/element-web
 
 # Create new user
 docker exec -it <container matrix> /bin/sh
